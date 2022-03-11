@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.max-700 {
+    max-width: 500px !important;
+}
+body {
+    font-family: Rubik;
+}
