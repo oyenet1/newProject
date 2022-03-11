@@ -6,12 +6,12 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
   @livewireStyles
 
   <!-- Scripts -->
-  <script src="{{ asset('js/app.js') }}" defer></script>
+  <script src="{{ mix('js/app.js') }}" defer></script>
   <title>SMS | Login</title>
 </head>
 <body class="relative bg-white flex justify-around h-screen w-full font-rubik">
@@ -60,6 +60,6 @@
     <a href="mailto:info@bonifade.com" class="rounded text-primary border-2 border-primary px-4 transition duration-300 hover:bg-primary hover:text-white py-2 text-sm -mt-8 font-medium absolute right-3  top-0" target="_blank" title="Click to Contact">Contact</a>
   </div>
   {{-- <a href="https://bonifade.com" class="rounded text-primary border-2 border-primary px-4 transition duration-300 hover:bg-primary hover:text-white py-2 text-sm my-3 absolute right-3 top-2" target="_blank" title="Click to Contact">Contact</a> --}}
-  @livewireScripts
+ @livewireScripts
 </body>
 </html>

@@ -1,4 +1,5 @@
-// const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
     mode: 'jit',
@@ -28,5 +29,5 @@ module.exports = {
       extend: {},
     },
 
-    plugins: [],
+    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 };
